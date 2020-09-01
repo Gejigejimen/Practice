@@ -1,0 +1,222 @@
+.inr{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header-visual_img{
+	position: relative;
+	height: 25rem;
+	width: 100%;
+	background: center center no-repeat;
+	background-image: url(../img/head-visual.jpg);
+	background-size: cover;
+}
+.header-visual_nav{
+	background-color: #333;
+}
+.visual-nav_content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: middle;
+}
+.nav-content{
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #fff;
+	padding: 23px 30px;
+}
+.nav-content:hover{
+	color: darkcyan;
+}
+
+.cpy{
+	text-align: center;
+	padding: 100px;
+}
+.cpy_title{
+	font-size: 2.2rem;
+	margin: 10px;
+}
+.cpy_about{
+	font-size: 1.2rem;
+}
+
+.main-explanation{
+	display: flex;
+	justify-content: space-between;
+}
+
+.explanation-block{
+	display: block;
+	margin: 0 4rem;
+}
+.explanation-block_img-area{
+	width: 20rem;
+	height: 6rem;
+	background: center center no-repeat;
+	background: cover;
+}
+
+.explanation-block_cpy-area{
+	font-size: 1.8rem;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.explanation-block_about-area{
+	font-size: 0.8rem;
+	width: 16rem;
+	line-height: 1.5rem;
+	font-weight: normal;
+	margin-bottom: 1.5rem;
+}
+
+.explanation-block_btn-area{
+	line-height: 40px;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	font-size: 0.8rem;
+	padding: 13px 40px;
+	background-color: darkgrey;
+	color: #fff;
+}
+.explanation-block_btn-area:hover{
+	opacity: 0.8;
+}
+
+.main-instalattion{
+	margin-top: 4rem;
+	position: relative;
+	width: 100%;
+	height: 22rem;
+}
+
+.instalattion_img-area{
+	background-image: url(../img/INSTALATTION.jpg);
+	background-size: cover;
+	height: 100%;
+}
+.instalattion_txt-area{
+	color: #fff;
+	font-size: 2.5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.project-box_row{
+	display: flex;
+	height: 15rem;
+}
+.box-row_content{
+	width: 25%;
+	height: 100%;
+}
+
+.content-box1{
+	background-image: url(../img/content-box1.jpg);
+}
+.content-box2{
+	background-image: url(../img/content-box2.jpg);
+}
+.content-box3{
+	background-image: url(../img/content-box3.jpg);
+}
+.content-box4{
+	background-image: url(../img/content-box4.jpg);
+}
+.content-box5{
+	background-image: url(../img/content-box5.jpg);
+}
+.content-box6{
+	background-image: url(../img/content-box6.jpg);
+}
+.content-box7{
+	background-image: url(../img/content-box7.jpg);
+}
+.content-box8{
+	background-image: url(../img/content-box8.jpg);
+}
+
+.main-news h3{
+	margin: 20px 0;
+}
+
+.main-news_content{
+	display: flex;
+	justify-content: space-between;
+	height: 20rem;
+	width: 100%;
+}
+
+.news-content_box{
+	height: 100%;
+}
+.content-box_img{
+	display: block;
+	background-image: url(../img/tekitougazou.jpg);
+	background: center center no-repeat;
+	background-size: cover;
+	background-color: darkmagenta;
+	height: 60%;
+	width: 15rem;
+}
+
+.content-box_ttl{
+	display: block;
+	margin: 10px 0;
+}
+
+.content-box_btn{
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 0.8rem;
+	padding: 5px 10px 5px 5px;
+	background-color: darkgrey;
+	color: #fff;
+	width: 5rem;
+}
+.content-box_btn:hover{
+	opacity: 0.8;
+}
+
+.main-footer{
+	background-color: gainsboro;
+}
+
+.main-footer_list{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-list_block{
+	margin: 20px 60px 60px 60px;
+}
+.list-block_ttl{
+	display: block;
+	margin: 20px 0;
+}
+.list-block_content{
+	display: block;
+	margin: 15px 0;
+}
+
+
+.footer{
+	background-color: black;
+	height: 30px;
+}
+.footer_txt{
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 15px;
+}
